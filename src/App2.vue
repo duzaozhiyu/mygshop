@@ -10,12 +10,15 @@
 
 import FooterGuide from './components/FooterGuide/FooterGuide'
 import FooterGuide2 from './components/FooterGuide/FooterGuide2'
+
+import Store from './store/index'
 export default {
   name: 'App2',
   components: {
     FooterGuide,
     FooterGuide2
-  }
+  },
+  Store
 }
 </script>
 
